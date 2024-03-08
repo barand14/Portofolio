@@ -1,0 +1,11 @@
+.profilepic{
+    height: 200px;
+    width: 200px;
+}
+h2{
+    color:red
+}
+#email{
+    font-size: 50px;
+    color: blue;
+}
