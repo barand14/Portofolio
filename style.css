@@ -5,7 +5,7 @@ body{
 }
 header{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 20px;
     background-color: #f0f0f0 ;
@@ -29,5 +29,27 @@ main {
     padding: 20px;
 }
 section {
-    margin: ;
+    margin-bottom: 20px ;
+}
+h2{
+    color: blueviolet ;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.profilepic {
+    height: 200px;
+    width: 200px;
+}
+html{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px; 
+    padding: 10px
+}
+#email{
+    font-size: 30px;
+    color: blue;
+}
+@media all and (max-width: 500px) {
+    
 }
