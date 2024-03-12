@@ -5,7 +5,7 @@ body{
 }
 header{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color: #f0f0f0 ;
@@ -28,28 +28,23 @@ header nav li {
 main {
     padding: 20px;
 }
-section {
-    margin-bottom: 20px ;
+section{
+    margin-bottom: 20px;
 }
 h2{
-    color: blueviolet ;
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: blue;
 }
-.profilepic {
+.profilepic{
     height: 200px;
     width: 200px;
 }
-html{
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px; 
-    padding: 10px
-}
 #email{
-    font-size: 30px;
-    color: blue;
+    font-size: 20px;
+    color: lawngreen;
 }
-@media all and (max-width: 500px) {
-    
+.grid-container{
+    display: grid;
+    grid: 150px;
 }
