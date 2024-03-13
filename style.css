@@ -8,43 +8,45 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f0f0f0 ;
+    background-color: orange ;
 }
 header h1 {
     font-size: 2em;
     margin: 0;
 }
-header nav{
-    display: flex;
+header img {
+        border-radius 50%; 50%
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
 }
-header nav ul{
-    list-style: none;
-    padding: 0
-    margin 0;
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
 }
-header nav li {
-    margin-right: 20px;
+
+ nav ul li {
+    display: inline;
+    margin-right: 20px
 }
-main {
-    padding: 20px;
+    
+ nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
-section{
-    margin-bottom: 20px;
+
+nav ul li a:hover{
+    text-decoration: underline;
 }
+
 h2{
     font-size: 1.5em;
     margin-bottom: 10px;
     color: blue;
 }
-.profilepic{
-    height: 200px;
-    width: 200px;
-}
+
 #email{
     font-size: 20px;
     color: lawngreen;
-}
-.grid-container{
-    display: grid;
-    grid: 150px;
 }
