@@ -1,11 +1,25 @@
 body{
-    font-family: sans-serif;
+    display: flex;
+    flex-direction: column ;
+    min-height: 100%;
+    font-size: 15;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-header{
+.sub-section{
     display: flex;
+}
+.border{
+    border: 2px solid blue;
+}
+header{
     align-items: center;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
     justify-content: space-between;
     padding: 20px;
     background-color: orange ;
@@ -15,7 +29,7 @@ header h1 {
     margin: 0;
 }
 header img {
-        border-radius 50%; 50%
+        border: 50%;
         margin-top: 10px;
         width: 200px;
         height: 200px;
@@ -41,12 +55,23 @@ nav ul li a:hover{
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
 }
-
+#About {
+    width: 800px;
+}
+#work {
+    width: 600px;
+}
+#contact {
+    width: 1260px;
+}
 #email{
     font-size: 20px;
-    color: lawngreen;
+    font-family: fantasy;
+    color: purple;
 }
